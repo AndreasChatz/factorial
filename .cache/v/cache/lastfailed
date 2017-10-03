@@ -1,0 +1,4 @@
+{
+  "test_prime_swing.py::test_primality": true,
+  "tests/test_prime_swing.py::test_primality": true
+}
