@@ -21,8 +21,9 @@ def test_is_prime():
 
 
 def test_all_prime_numbers_up_to_2017():
-    for i, prime in enumerate(prime_swing.all_prime_numbers_up_to(2017)):
-        assert prime == PRIMES_UP_TO_2017[i]
+    for result, primes in zip(prime_swing.all_prime_numbers_up_to(2017),
+                              PRIMES_UP_TO_2017):
+        assert result == primes
 
 
 def test_prime_exponents_of_a_swing_number():
